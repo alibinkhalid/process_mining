@@ -141,6 +141,9 @@ The **Alpha Miner** algorithm is applied to discover the basic process structure
 - Useful for understanding **intended vs actual process logic**.
 - Best suited for **low‑noise, structured processes**.
 
+
+![Alpha-Miner Petri Net](alpha_miner_petri_net.png) 
+
 ---
 
 ### Step 4 – Frequency‑Based Petri Net
@@ -159,6 +162,9 @@ The Petri Net is enhanced with **frequency information**.
   - recurring workarounds,
   - non‑standard processing.
   
+![Frequency-based Petri Net](frequency_based_petri_net.png) 
+  
+  
 ---
 
 ### Step 5 – Directly‑Follows Graph (DFG)
@@ -173,6 +179,9 @@ Two variants are used:
 #### Performance DFG
 - Shows **performance metrics** (e.g. time between steps).
 
+![Directly‑Follows Graph (DFG)](dfg.png) 
+
+
 #### Audit relevance
 - Highlights bottlenecks.
 - Identifies stages with excessive waiting times.
@@ -185,6 +194,10 @@ The **Heuristics Miner** is applied to handle:
 - noise,
 - infrequent behaviour,
 - real‑world complexity.
+
+![Heuristics Miner](heuristics_miner.png) 
+
+
 
 #### Purpose
 - Produces a more realistic model compared to Alpha Miner.
